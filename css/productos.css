@@ -1,0 +1,154 @@
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo */
+.logo-container {
+    width: 100%;
+    background-color: #B695C0;
+    text-align: center;;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    padding: 10px 0;
+    width: 50px; /* Ajusta el tamaño del logo */
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-left: 47%;
+}
+.logo1 {
+    width: 20px; /* Ajusta el tamaño del logo */
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: px;
+    margin-left: 50%;
+    padding: 10px 0;
+}
+.logo2 {
+    width: 200px; /* Ajusta el tamaño del logo */
+    height: auto;
+    border-radius: 50px;
+    margin-left: 35px;
+    padding: 10px 0;
+}
+
+/* Botones */
+.botones-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Espacio entre botones */
+}
+
+button {
+    width: 200px; /* Ancho fijo para todos los botones */
+    height: 100px;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #2C1638; /* Color de fondo */
+    color: #B695C0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #551668; /* Color de fondo al pasar el ratón */
+}
+
+.contenido {
+    background-color: #B695C0;
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.contenido p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+}
+.titulo{
+    width: 400px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.titulo  p {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+/* Estilos para el footer */
+footer {
+    background-color: #B695C0;
+    color: #FFFFE7;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    margin: 0px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Espacio extra al final del contenido para evitar que el footer lo tape */
+body {
+    margin-bottom: 100px; /* Ajusta el valor según la altura del footer */
+}
+
+.pie {
+    color: #FFFFE7;
+    text-decoration: none; /* Elimina el subrayado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el enlace */
+}
+.ask{
+    padding-left: 5px;
+    padding-top: 50px;
+    text-align: justify;
+    width: 100%; /* Ancho fijo para todos los botones */
+    height: 100px;
+    font-size: 18px;
+    background-color: #2C1638; /* Color de fondo */
+    color: #B695C0;
+}
